@@ -549,7 +549,7 @@ if type == 1:
     if nm > 1000:
         print("\t\tYou Have Entered " + str(nm) +
               ".\n\tNormalizing Value To 1000")
-        nm = 100
+        nm = 1000
     dl = float(input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
 elif type == 0:
     if cc == "91":
