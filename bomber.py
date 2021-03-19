@@ -498,7 +498,7 @@ try:
     verl = open(".version", 'r').read()
 except Exception:
     pass
-if ver != verl:
+
     print('\n\t\tAn Update is Available....')
     print('\tStarting Update...')
     update()
