@@ -476,9 +476,9 @@ def start(target, counter, delay, ch, cc):
 def update():
     
 
-    print('\n\t\tUpdated Successfull !!!!')
-    print('\tPlease Run The Script Again...')
-    exit()
+
+   
+    
 
 
 clr()
@@ -495,7 +495,7 @@ print('\tChecking For Updates...')
   
 
 try:
-    verl = open(".version", 'r').read()
+    print('nothing')
 except Exception:
     pass
 
